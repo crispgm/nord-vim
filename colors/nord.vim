@@ -832,3 +832,9 @@ hi! link VimwikiList markdownListMarker
 " YAML
 " > stephpy/vim-yaml
 call s:hi("yamlKey", s:nord7_gui, "", s:nord7_term, "", "", "")
+
+" hop.nvim
+call s:hi("HopNextKey", s:nord13_gui, "", s:nord13_term, "", s:bold, "")
+call s:hi("HopNextKey1", s:nord11_gui, "", s:nord11_term, "", s:underline, "")
+call s:hi("HopNextKey2", s:nord12_gui, "", s:nord12_term, "", s:underline, "")
+call s:hi("HopUnmatched", s:nord3_gui, "", s:nord3_term, "", "", "")
