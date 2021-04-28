@@ -356,7 +356,7 @@ call s:hi("TSUnderline", s:nord8_gui, "", s:nord8_term, "", s:underline, "")
 call s:hi("TSTitle", s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("TSLiteral", s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("TSURI", s:nord4_gui, "", "NONE", "", "NONE", "")
-call s:hi("TSTag", s:nord4_gui, "", "", "", "", "")
+call s:hi("TSTag", s:nord9_gui, "", s:nord9_term ,"", "", "")
 call s:hi("TSTagDelimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
 
 "+-----------+
