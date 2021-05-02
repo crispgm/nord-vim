@@ -852,3 +852,17 @@ call s:hi("HopNextKey", s:nord13_gui, "", s:nord13_term, "", s:bold, "")
 call s:hi("HopNextKey1", s:nord11_gui, "", s:nord11_term, "", s:underline, "")
 call s:hi("HopNextKey2", s:nord12_gui, "", s:nord12_term, "", s:underline, "")
 call s:hi("HopUnmatched", s:nord3_gui, "", s:nord3_term, "", "", "")
+
+"+------------+
+"+ Public API +
+"+------------+
+"+--- Functions ---+
+
+function! NordPalette() abort
+  let ret = {}
+  for color in range(16)
+    execute 'let ret["nord'.color.'"] = s:nord'.color.'_gui'
+  endfor
+  let ret["nord3_bright"] = s:nord3_gui_bright
+  return ret
+endfunction
