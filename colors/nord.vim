@@ -360,6 +360,20 @@ call s:hi("TSTag", s:nord9_gui, "", s:nord9_term ,"", "", "")
 call s:hi("TSTagDelimiter", s:nord6_gui, "", s:nord6_term, "", "", "")
 
 "+-----------+
+"+ Telescope +
+"+-----------+
+call s:hi("TelescopeSelection", s:nord15_gui, "", s:nord15_term ,"", "", "")
+call s:hi("TelescopeSelectionCaret", s:nord15_gui, "", s:nord15_term ,"", "", "")
+call s:hi("TelescopeMultiSelection", s:nord15_gui, "", s:nord15_term ,"", "", "")
+call s:hi("TelescopeNormal", s:nord5_gui, "", s:nord5_term, "", "", "")
+call s:hi("TelescopeBorder", s:nord5_gui, "", s:nord5_term, "", "", "")
+call s:hi("TelescopePromptBorder", s:nord6_gui, "", s:nord6_term, "", "", "")
+call s:hi("TelescopeResultsBorder", s:nord6_gui, "", s:nord6_term, "", "", "")
+call s:hi("TelescopePreviewBorder", s:nord6_gui, "", s:nord6_term, "", "", "")
+call s:hi("TelescopeMatching", s:nord8_gui, "", s:nord8_term, "", "", "")
+call s:hi("TelescopePromptPrefix", s:nord14_gui, "", s:nord14_term, "", "", "")
+
+"+-----------+
 "+ Languages +
 "+-----------+
 call s:hi("asciidocAttributeEntry", s:nord10_gui, "", s:nord10_term, "", "", "")
