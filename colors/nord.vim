@@ -642,8 +642,8 @@ call s:hi("CocErrorSign" , s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("CocInfoSign" , s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("CocHintSign" , s:nord10_gui, "", s:nord10_term, "", "", "")
 
-" Nvim LSP
-" > neovim/nvim-lsp
+" Neovim LSP
+" > neovim/nvim-lspconfig
 call s:hi("LspDiagnosticsDefaultWarning", s:nord13_gui, "", s:nord13_term, "", "", "")
 call s:hi("LspDiagnosticsDefaultError" , s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("LspDiagnosticsDefaultInformation" , s:nord8_gui, "", s:nord8_term, "", "", "")
